@@ -1,0 +1,102 @@
+ .main{
+width:60%;
+height:60%;
+background-color: #ece9e9;
+border-radius: 1.5rem;
+box-shadow: 7px -8px 5px 0px rgba(0,0,0,0.7);
+align-self: center;
+text-align: center;
+margin-left: 17%;
+margin-top: 10%;
+display: flex;
+flex-direction: column;
+ 
+ }
+ html{
+background-color: #d3d3d3;
+font-size: 10px;
+ }
+.gmail_img{
+border-radius: 1.5rem;
+ margin-top: 3rem;
+margin-left: 10rem;
+align-self: center;
+ 
+}
+.gmail_text{
+font-size: 2.5rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+margin-left: 14rem;
+align-self: center;
+ 
+
+
+}
+
+.texts{
+flex-direction: row;
+display: flex;
+ 
+}
+.images{
+    flex-direction: row;
+    display: flex;
+     
+}
+.data_div{
+
+}
+.heading{
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+
+}
+
+@media only screen and (max-width:420px){
+    .main{
+        width:100%;
+        height: 40%;
+        background-color: #ece9e9;
+        border-radius: 1.5rem;
+        box-shadow: 7px -8px 5px 0px rgba(0,0,0,0.7);
+         margin-right: rem;
+        flex-direction: column;
+        margin-top: 25rem;
+        align-items: center;
+        margin-left: -.1rem;
+  
+         
+         }
+         .gmail_img{
+            border-radius: 1.5rem;
+             margin-top: 2rem;
+            margin-left: 3rem;
+            align-self: center;
+            width:100px;
+             
+            }
+            .texts{
+                flex-direction:row;
+                display: flex;
+                 
+                }
+                .images{
+                    flex-direction: row;
+                    display: flex;
+                     
+                }
+                .gmail_text{
+                    font-size: 2.2rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: bolder;
+                    margin-left: 5rem;
+                    align-self: center;
+                     
+                    
+                    
+                    }
+}
+ 
